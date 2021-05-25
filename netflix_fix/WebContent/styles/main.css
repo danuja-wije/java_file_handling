@@ -1,0 +1,130 @@
+form{
+    padding:20px;
+    background-color: rgba(255, 255, 255,0.4);
+    font-size:14px;
+    font-family:Verdana;
+    color:black;
+    margin:20px;
+    box-shadow:1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+    outline: none;
+    border:none;
+    max-width: 50%;
+    margin-left: 300px;
+    margin-top: 2px;
+
+}
+
+h1{
+    color:white;
+    font-family:"Arial Black", Gadget, sans-serif;
+    text-shadow:1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+    font-size:60px;
+    margin-left: 400px;
+    margin-top: 5px;
+
+}
+
+
+select,
+option{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 50px;
+}
+
+input[type="text"],
+input[type="file"]{
+
+    width: 640px;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 50px;
+}
+
+input:active[type=text],
+input[type="file"],
+#formStyle1 select:active{
+    border: 2px solid #808080;
+    outline:none;
+}
+
+body {
+    font-family: roboto, sans-serif;
+    background-image: url("//styles/images/bg.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.Btn{
+
+    padding:15px 20px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #680000;
+    border: none;
+    border-radius: 30px;
+    margin-bottom:30px;
+    margin-top:10px;
+    margin-left:20px;
+    width: 640px;
+    box-shadow: 0 5px #999;
+
+
+}
+
+.Btn:active{
+    background-color: #ff6a6f;
+    transform: translateY(4px);
+    box-shadow: 0 3px #666;
+}
+
+.Btn:hover{
+    background-color: #ff6a6f
+}
+
+table{
+    border-style: solid;
+    margin-left:50px;
+
+
+}
+thead{
+
+    background-color: rgba(255, 255, 255,0.1);
+    colour: white;
+    border-style: none;
+}
+
+th,td{
+    padding: 10px 20px;
+    width: 100px;
+    text-align: center;
+}
+
+td{
+    color: white;
+    font-weight: bold;
+}
+
+table button{
+
+    padding:10px 20px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #680000;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    box-shadow: 0 5px #999;
+
+}
